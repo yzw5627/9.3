@@ -8,8 +8,8 @@
 #include <stdlib.h>
 
 int main(void) {
-  char *cel = readline("Enter temperature in celsius: "); 
-  double c = atof(cel); 
+  char *ctemp = readline("Enter temperature in celsius: "); 
+  double c = atof(ctemp); 
   double f = c * 9/5 + 32; 
   printf("%f° in Celsius is equicalent to %f° Fahrenheit. \n",c, f); 
 
