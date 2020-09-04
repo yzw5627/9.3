@@ -10,7 +10,7 @@
 int main(void) {
   char *ctemp = readline("Enter temperature in celsius: "); 
   double c = atof(ctemp); 
-  double f = c * 9/5 + 32; 
+  double f = c * 1.8 + 32; 
   printf("%f° in Celsius is equicalent to %f° Fahrenheit. \n",c, f); 
 
   return 0; 
